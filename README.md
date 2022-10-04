@@ -1,11 +1,9 @@
 # create virtual environment
 
----
-
-python -m virtualenv venv
-.\venv\Scripts\activate
+1. python -m virtualenv venv
+2. .\venv\Scripts\activate
 
 ### install frameworks
 
-pip install flask flask-cors psycopg2 python-decouple python-dotenv
-python .\src\app.py
+3. pip install flask flask-cors psycopg2 python-decouple python-dotenv
+4. python .\src\app.py
